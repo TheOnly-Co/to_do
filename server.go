@@ -4,7 +4,7 @@ import (
     "net/http"
     "fmt"
     "encoding/json"
-    "github.com/TheOnly-Co/to_do/structs"
+    "github.com/TheOnly-Co/to_do/views"
 )
 
 
