@@ -5,7 +5,7 @@ import(
 	"github.com/TheOnly-Co/to_do/views"
     "encoding/json"
 )
-func ping() http.HandleFunc{
+func ping() http.HandlerFunc{
 	return func(w http.ResponseWriter, r *http.Request){
 		if r.Method == http.MethodGet {
 			data := views.Response{
