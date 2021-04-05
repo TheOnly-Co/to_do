@@ -4,7 +4,6 @@ import (
     "net/http"
     "github.com/TheOnly-Co/to_do/controller"
     "github.com/TheOnly-Co/to_do/model"
-    "github.com/go-sql-driver/mysql"
     "log"
     "fmt"
 )
