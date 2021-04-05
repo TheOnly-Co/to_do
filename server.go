@@ -5,6 +5,7 @@ import (
     "github.com/TheOnly-Co/to_do/controller"
     "github.com/TheOnly-Co/to_do/model"
     "log"
+    _ "github.com/go-sql-driver/mysql"
     "fmt"
 )
 
